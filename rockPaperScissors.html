@@ -16,10 +16,14 @@
                 if (playerSelection == computerSelection) {
                     result = "It's a draw"
                 }
-                else if (playerSelection == "rock" && computerSelection == "scissors" || playerSelection == "paper" && computerSelection == "rock" || playerSelection == "scissors" && computerSelection == "paper") {
+                else if (playerSelection == "rock" && computerSelection == "scissors" ||
+                        playerSelection == "paper" && computerSelection == "rock" ||
+                        playerSelection == "scissors" && computerSelection == "paper") {
                     result = "You win!"
                 }
-                else if (playerSelection == "rock" && computerSelection == "paper" || playerSelection == "paper" && computerSelection == "scissors" || playerSelection == "scissors" && computerSelection == "rock") {
+                else if (playerSelection == "rock" && computerSelection == "paper" ||
+                        playerSelection == "paper" && computerSelection == "scissors" ||
+                        playerSelection == "scissors" && computerSelection == "rock") {
                     result = "You lose!"
                 }
 
